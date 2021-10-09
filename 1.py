@@ -10,8 +10,7 @@ my_repo = Repo('new')
 clone = Repo.clone_from('https://github.com/Abhinandini/new_1', '/Users/abhi/Desktop/GitRepository_1')
 # or clone via ssh (will use default keys)
 #git.Repo.clone_from('git@github.cim:DevDungeon/Cookbook', 'Cookbook-ssh')
-file_list = [
-    "COVID_Vaccine_Record_Card",
+file_list = ["abcd.py"
 ]
 repo = Repo('GitRepository_1')
 if repo.is_dirty(untracked_files=True):
